@@ -28,6 +28,13 @@
         Welcome to Client Index Page
     </h4>
 
+    <hr>
+    {{-- Slots in components --}}
+    <x-form.label value="First Name in value" />
+    <x-form.label>
+        This is a label for the input field.
+    </x-form.label>
+
     <x-slot:script>
         alert('Hello from Client Index Page');
     </x-slot:script>
